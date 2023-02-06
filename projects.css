@@ -1,0 +1,44 @@
+.home{
+    background-color:rgb(230,218,206);
+    width: 100%;
+    min-height: 81vh;
+}
+.box{
+    width: 700px;
+    margin:3rem;
+
+}
+.leftbox{
+    width: 50%;
+    background-color: white;
+    height: 400px;
+    padding: 1rem;
+
+
+}
+.rightbox{
+    width: 50%;
+    background-color: blue;
+    height: 400px;
+    padding: 1rem;
+
+
+}
+.vr{
+    border: 1px solid #0050FF;
+    background: #0050FF;
+    height: 30px;
+    width: 3px;
+}
+.vr_parent{
+    gap:20px;
+}
+.rightbox img{
+    object-fit: cover;
+}
+.project_name{
+    color: #0050FF;
+}
+.project_detail{
+    font-size: 1.2rem;
+}
