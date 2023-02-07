@@ -80,6 +80,27 @@
     color: white;
     border: 1px solid #0050FF;
 }
-.footer{
-    
-}
+
+
+
+
+@media only screen and (max-width: 850px) {
+    .home .left{
+        width: 100%;
+    }
+    .home .left .board{
+        justify-content: center;
+        flex-direction: column;
+        top: unset;
+        left:unset;
+    }
+    .leftboard {
+        width: 100%;
+        padding: 2rem 0px; 
+    }
+    .rightboard {
+        width: 100%;
+        padding: 2rem 0px; 
+
+    }
+  }

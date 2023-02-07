@@ -37,6 +37,7 @@
     font-size: 1rem;
     cursor: pointer;
     text-transform: uppercase;
+    display:none;
 }
 .nav ul li:hover{
     color: #0050FF;
