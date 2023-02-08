@@ -42,3 +42,11 @@
 .nav ul li:hover{
     color: #0050FF;
 }
+@media only screen and (max-width: 850px) {
+    .nav .gap p {
+        font-size: 1rem;
+    }
+    .gap h1{
+        font-size: 1.3rem;
+    }
+}

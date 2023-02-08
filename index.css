@@ -103,4 +103,7 @@
         padding: 2rem 0px; 
 
     }
+    .name {
+        text-align: center;
+    }
   }

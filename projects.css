@@ -42,3 +42,25 @@
 .project_detail{
     font-size: 1.2rem;
 }
+@media only screen and (max-width: 850px) {
+
+.smallerimg{
+    height: 220px;
+    width: 90px;
+}
+.leftbox{
+    width:unset;
+    height:unset;
+    padding: 0.5rem;
+}
+.box {
+    width:unset;
+    margin: 1rem;
+}
+.project_detail {
+    font-size: 1rem;
+}
+.project_name {
+    font-size: 1.2rem;
+}
+}
