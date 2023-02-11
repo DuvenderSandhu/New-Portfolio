@@ -41,6 +41,7 @@
 }
 .project_detail{
     font-size: 1.2rem;
+    text-align: justify;
 }
 @media only screen and (max-width: 850px) {
 

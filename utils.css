@@ -25,11 +25,10 @@
     top:0px;
     z-index: 5;
     background-color:white;
-    
 }
-
 .nav ul{
     list-style: none;
+    display:flex;
 }
 .nav ul li {
     padding: 0.5rem;
@@ -37,16 +36,42 @@
     font-size: 1rem;
     cursor: pointer;
     text-transform: uppercase;
-    display:none;
 }
 .nav ul li:hover{
     color: #0050FF;
 }
+.ham{
+    display: none !important;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.sec-nav ul{
+    display: none;
+    z-index: 5;
+
+}
+.ham:hover{
+    background: lightgray;
+    border-radius: 100%;
+}
+
 @media only screen and (max-width: 850px) {
     .nav .gap p {
         font-size: 1rem;
     }
     .gap h1{
         font-size: 1.3rem;
+    }
+    .ham{
+    display: inline !important;
+    }
+    .primary-nav ul li{
+        display: none;
+    }
+    .sec-nav ul{
+        display: none;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1.5rem;
     }
 }
